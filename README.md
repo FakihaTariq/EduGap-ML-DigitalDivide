@@ -45,7 +45,7 @@ This dataset includes:
 
 # How to Run
 1. Clone the repository:
-git clone https://github.com/yourusername/edugap.git
+git clone https://github.com/FakihaTariq/EduGap-AI-DigitalDivide.git
 cd edugap
 2. Install Required Packages:
 pip install -r requirements.txt
