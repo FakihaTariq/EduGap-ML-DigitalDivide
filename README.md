@@ -14,7 +14,6 @@ The digital divide remains a persistent and evolving barrier to equity in the mo
 - 'EduGap_Analysis_Notebook.ipynb': Jupyter notebook with code snippets, visualizations, and model training
 - 'digital_literacy_dataset.csv': Dataset used for training and evaluation of the models
 - 'EduGap_Research_Paper.pdf': Final research paper describing methodology and findings
-- 'results/': Graphs and analysis outputs used in the project or notebook
 - 'ML.py': Full code script for the project
 
 # Features
