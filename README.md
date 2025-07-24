@@ -31,10 +31,10 @@ This dataset includes:
   - Engagement/Behvaioral Metrics: Engagement level, session count, quiz performance, etc
 
 # Model Summary
-Model: Multi Output Classifier with Random Forest Classifier base model
-Labels: Binary labels (0: Below Average Skills/Skill Gain, 1: Above Average Skills/Skill Gain)
-Input Features: Normalized categorical features 
-Evaluation: Accuracy, classification report
+- Model: Multi Output Classifier with Random Forest Classifier base model
+- Labels: Binary labels (0: Below Average Skills/Skill Gain, 1: Above Average Skills/Skill Gain)
+- Input Features: Normalized categorical features 
+- Evaluation: Accuracy, classification report
 
 # Visualizations/Analysis
 - Feature importance
