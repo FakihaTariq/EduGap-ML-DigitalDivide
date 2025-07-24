@@ -4,6 +4,9 @@ An AI powered tool to analyze digital readiness and evaluate efficiency and resu
 # Abstract
 The digital divide remains a persistent and evolving barrier to equity in the modern age, particularly in rural and semi-rural populations. While most research highlights disparities in broadband access and device availability, especially for income and geographic factors, fewer studies explore skill-based inequity in digital readiness across socioeconomic and demographic groups such as education, employment, age, and income. This study introduces a machine learning driven framework designed to predict and analyze digital skill readiness and skill gains after interventions across three core areas: basic computer knowledge, internet usage, and mobile literacy. Using a synthetic dataset representative of populations in underserved regions, multiple models were evaluated to classify individuals as above or below average in each skill and skill gain, though for simplicity purposes the terms above and below average are used even though the median is used as the splitting point, not the mean. The median is used in order to improve equity and balance between the classes. A final pipeline using a MultiOutputClassifier with a RandomForest base achieved a testing accuracy of around .6, much greater from initial accuracies near .35, while avoiding overfitting. The model was further used to identify population subgroups most at risk and assess their growth potential after digital literacy training. Results show that groups with lower formal education, youth, early career, unemployed, informal work, high and low income were among the most digitally underserved. However, several of these same groups showed signs of above average gain, indicating strong potential for intervention impact though other groups continued to have below average gain showing that those groups may need extra support. Average adaptability, skill application, and overall literacy scores indicate that future interventions need to integrate techniques to target the areas they are struggling in. This work demonstrates how machine learning can complement traditional digital divide research and be a foundation for more scalable, ongoing, and valuable assets for future digital readiness and program effectiveness research.
 
+# Research Paper
+Access the pdf here: https://docs.google.com/document/d/1dqcEElbO5QmA7Y-JZAEHvnmfcpx3GKd3hbZFAed5LzI/edit?usp=sharing
+
 # Project Objective/Goals
 - This project aims to predict readiness using demographic, socioeconmic, skill, and behvaioral features
 - Label underserved comuntiites based on equity focused metrics
@@ -40,3 +43,19 @@ This dataset includes:
 - Identifying most underserved groups
 - Calculated amount below "average" (median) and amount above
 
+# How to Run
+1. Clone the repository:
+git clone https://github.com/yourusername/edugap.git
+cd edugap
+2. Install Required Packages:
+pip install -r requirements.txt
+If pip doesn't work, try:
+python -m pip install -r requirements.txt
+3. Launch Jupyter Notebook
+If using IDE with Jupyter support: jupyter notebook
+And open EduGap_Analysis_Notebook.ipynb in your browser
+or python script:
+python ML.py
+4. Add Dataset 
+Place your csv file in appropriate directory and access it with correct name
+5. Run cells/script
