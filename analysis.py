@@ -283,7 +283,7 @@ education_reverse_map = {0: 'No School', 1: 'Primary', 2: 'Secondary', 3: 'High 
 income_reverse_map = {0: 'Low', 1: 'Medium', 2: 'High'}
 employment_reverse_map = {0: 'Farmer', 1: 'Unemployed', 2: 'Student', 3: 'Other', 4: 'Self-Employed'}
 age_reverse_map = {0: 'Youth', 1: 'Senior', 2: 'Early Career', 3: 'Midlife'}
-engagement_reverse_map = {0: 'Low', 1: 'Medium', 'High': 2}
+engagement_reverse_map = {0: 'Low', 1: 'Medium', 2: 'High'}
 
 # Apply readable labels
 data['Education_Label'] = data['Education_Level'].map(education_reverse_map)
